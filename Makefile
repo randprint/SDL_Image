@@ -7,7 +7,7 @@ AR	= xenon-ar
 AS	= xenon-as
 RANLIB	= xenon-ranlib
 
-CFLAGS=$(INCLUDE) -ffunction-sections -fdata-sections  -mno-altivec -mhard-float -mcpu=cell -mtune=cell -m32 -fno-pic -mpowerpc64 -DXENON -DLOAD_PNG -DLOAD_BMP -DLOAD_GIF -DLOAD_LBM -DLOAD_PCX -DLOAD_PNM -DLOAD_TGA -DLOAD_XCF -DLOAD_XPM -DLOAD_XV -I$(DEVKITXENON)/usr/include/ -I$(DEVKITXENON)/usr/include/SDL/
+CFLAGS=$(INCLUDE) -ffunction-sections -fdata-sections  -mno-altivec -mhard-float -mcpu=cell -mtune=cell -m32 -fno-pic -mpowerpc64 -DXENON -DLOAD_JPG -DLOAD_PNG -DLOAD_BMP -DLOAD_GIF -DLOAD_LBM -DLOAD_PCX -DLOAD_PNM -DLOAD_TGA -DLOAD_XCF -DLOAD_XPM -DLOAD_XV -I$(DEVKITXENON)/usr/include/ -I$(DEVKITXENON)/usr/include/SDL/
 
 TARGET  = libSDL_image.a
 SOURCES = \
